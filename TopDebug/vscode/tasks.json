@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CUDA Make",
+            "type": "shell",
+            "command": "cmake dbg=1",
+            "group": "build",
+            "problemMatcher": [
+		        "$nvcc"
+            ]
+        }
+    ]
+}
